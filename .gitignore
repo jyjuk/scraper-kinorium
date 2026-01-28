@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Playwright
+.playwright/
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+scraper.db
+task.docx
+task_text.txt
+newtask.txt
+
+# Test files
+test_*.py
+analyze_*.py
+discover_*.py
+execute_*.py
+extract_*.py
+inspect_*.py
+
+# Analysis and temporary files
+*.json
+ANALYSIS_REPORT.md
+CODE_COMMENTS_REVIEW.md
+FINAL_REPORT.md
+IMPROVEMENTS.md
+LIMITATIONS.md
+LOCAL_TEST_RESULTS.md
+PROJECT_SUMMARY.md
+QUICKSTART.md
+RUNNING_LOCALLY.md
+
+# Folders with analysis data
+1/
+2/
+api_responses/
+data/
+
+# HTML snapshots
+*.html
+
+# Shell scripts
+test_*.sh

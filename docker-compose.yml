@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: kinorium-scraper-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./app:/app/app
+    environment:
+      - APP_NAME=Kinorium Scraper API
+      - DEBUG=True
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DATABASE_URL=sqlite+aiosqlite:///./data/scraper.db
+      - REQUEST_TIMEOUT=30
+      - BROWSER_TIMEOUT=60000
+      - HEADLESS_MODE=True
+      - BASE_URL=https://ua.kinorium.com
+    restart: unless-stopped
+    networks:
+      - scraper-network
+
+networks:
+  scraper-network:
+    driver: bridge
