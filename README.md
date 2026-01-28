@@ -1,3 +1,40 @@
+<p align="center">
+  <img src="assets/1.png" alt="Swagger UI" width="700"/>
+</p>
+
+---
+
+## 🎥 Demo Video
+[▶️ Переглянути демо](assets/28.01.2026_21.00.44_REC.mp4)
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/2.png" alt="API Docs" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/3.png" alt="Demo Request" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/34.png" alt="Response Example" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/4.png" alt="Response Example" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/5.png" alt="Another Example" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/6.png" alt="Final Screenshot" width="600"/>
+</p>
+
 # Kinorium Scraper API
 
 Asynchronous REST API service for scraping film information from [ua.kinorium.com](https://ua.kinorium.com) using FastAPI, Playwright, and SQLAlchemy.
